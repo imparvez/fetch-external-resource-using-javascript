@@ -1,0 +1,66 @@
+.container-fluid {
+    background-color: #f3f3f3;
+}
+
+h1 {
+    text-align: center;
+    color: #c33;
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+ul {
+    list-style-type: none;
+    width: 80%;
+    margin: 0 auto;
+}
+
+li {
+    font-family: 'Roboto', sans-serif;
+    padding: 15px 25px;
+    height: 70px;
+    background: #fff;
+    box-shadow: 0px 4px 8px -1px #CCC;
+    cursor: pointer;
+    margin-bottom: 25px;
+    transition: 0.5s ease all;
+}
+
+li:hover {
+    box-shadow: 0px 20px 40px -1px #CCC;
+}
+
+h2 {
+    font-size: 16px;
+    font-family: inherit;
+    margin: 0px;
+    float: left;
+    line-height: 40px;
+    max-width: 250px;
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #c33;
+}
+
+span {
+    line-height: 40px;
+    font-size: 16px;
+    margin-left: 45px;
+}
+
+button {
+    float: right;
+    color: #c33;
+    text-transform: capitalize;
+    padding: 10px 25px;
+    background: #fff;
+    border: 1px solid #c33;
+    border-radius: 20px;
+    transition: all 0.5s ease;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #da3159, #794a8b 80%, #754b8d);
+    color: #fff;
+}
